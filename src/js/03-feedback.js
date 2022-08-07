@@ -34,6 +34,6 @@ function restoreInput() {
   }
   for (const key in parsedObject) {
     refs[key].value = parsedObject[key];
-   
+    
   }
 }
